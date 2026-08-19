@@ -1,0 +1,132 @@
+* {
+  background-color: black;
+  color: gray;
+  user-select: none;
+}
+
+@media (orientation: portrait) {
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+  }
+
+  #categories {
+    margin-left: 1em;
+    margin-right: 2em;
+    width: 7em;
+    max-width: 15vw;
+  }
+
+  .navbar_items {
+    margin-top: 0.25em;
+  }
+
+  .navbar_items:hover {
+    color: white;
+    cursor: pointer;
+    text-indent: 1em;
+  }
+
+  #submenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+  }
+
+  .navbar_items_children {
+    margin-top: 0.25em;
+    font-size: large;
+    text-decoration: none;
+  }
+
+  .navbar_items_children:hover {
+    color: white;
+    cursor: pointer;
+    /* font-size: x-large; */
+  }
+
+  #descriptionWindow {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2em;
+  }
+}
+
+
+@media (orientation: landscape) {
+  #categories {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 2em;
+    width: 7em;
+    max-width: 15vw;
+  }
+
+  .navbar_items {
+    display: inline;
+    font-size: x-large;
+  }
+
+  #submenu {
+    margin-top: 1em;
+    margin-left: 3em;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    width: fit-content;
+  }
+
+  #submenu > a {
+    width: fit-content;
+    text-decoration: none;
+  }
+
+  #submenu > a:hover, #submenu > a:active {
+    color: white;
+  }
+
+  #descriptionWindow {
+    margin-left: 10vw;
+    margin-left: 6em;
+
+    margin-right: 10vw;
+    margin-top: 2em;
+    font-size: x-large;
+  }
+
+}
+
+#contentImage {
+  margin-top: 1em;
+  width: 100%;
+}
+
+#appBtnDiv {
+    text-align: center;
+}
+
+button {
+    margin-top: 1em;
+    background-color: gray;
+    color: white;
+    border-bottom-color: rgb(110, 109, 109);
+    border-right-color: rgb(110, 109, 109);
+    border-left-color: rgb(232, 232, 232);
+    border-top-color: rgb(232, 232, 232);
+}
+
+button:hover{
+    background-color: rgb(101, 101, 101);
+    color: white;
+    border-top-color: rgb(232, 232, 232);
+    border-left-color: rgb(232, 232, 232);
+}
+
+button:active {
+    border-top-color: rgb(110, 109, 109);
+    border-left-color: rgb(110, 109, 109);
+    border-bottom-color: rgb(232, 232, 232);
+    border-right-color: rgb(232, 232, 232);
+}
