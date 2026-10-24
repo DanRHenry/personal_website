@@ -98,7 +98,7 @@ const gamesList = [
 	name: "Wordle Clone",
 	description: "This Wordle clone allows people to enter words for each other, as well as resizing the game grid.",
 	image: {
-	  URL: "",
+    URL: "../media/wordle_clone.png",
 	  altText: "Image Coming",
 	},
 	link: "https://danhenrydev.com/projects/wordle_clone/index.html",
@@ -110,7 +110,19 @@ const gamesList = [
 	description: "This is a basic Tower of Hanoi game, with three levels of difficulty",
 	link: "https://danhenrydev.com/projects/tower_of_hanoi/index.html",
 	image: {
-		URL: "",
+    URL: "../media/tower_of_hanoi.png",
+		altText: "Image Coming",
+	},
+//	link: "https://danhenrydev.com/projects/tower_of_hanoi/index.html",
+	width: 1000,
+	height: 800
+    },
+        {
+	name: "Connect Four",
+	description: "Play Connect Four!",
+	link: "https://danhenrydev.com/projects/connect_four/index.html",
+	image: {
+    URL: "../media/connect_four.png",
 		altText: "Image Coming",
 	},
 //	link: "https://danhenrydev.com/projects/tower_of_hanoi/index.html",
