@@ -13,17 +13,17 @@ export const appList = [
     //   width: 1000,
     //   height: 800,
     // },
-    {
-      name: "Meal Planner",
-      description: "",
-      link: "https://danhenrydev.com/projects/apps/mealPlanner/client/index.html",
-      image: {
-        URL: "../media/Meal Planner.png",
-        altText: "Meal Planner Image",
-      },
-      width: 1000,
-      height: 800,
-    },
+    // {
+    //   name: "Meal Planner",
+    //   description: "",
+    //   link: "https://danhenrydev.com/projects/apps/mealPlanner/client/index.html",
+    //   image: {
+    //     URL: "../media/Meal Planner.png",
+    //     altText: "Meal Planner Image",
+    //   },
+    //   width: 1000,
+    //   height: 800,
+    // },
         {
       name: "Health",
       description: "",
