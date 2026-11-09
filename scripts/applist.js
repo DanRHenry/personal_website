@@ -16,10 +16,21 @@ export const appList = [
     {
       name: "Meal Planner",
       description: "",
-      link: "https://danhenrydev.com/projects/mealPlanner/client/index.html",
+      link: "https://danhenrydev.com/projects/apps/mealPlanner/client/index.html",
       image: {
         URL: "../media/Meal Planner.png",
         altText: "Meal Planner Image",
+      },
+      width: 1000,
+      height: 800,
+    },
+        {
+      name: "Health",
+      description: "",
+      link: "https://danhenrydev.com/projects/apps/health/client/index.html",
+      image: {
+        URL: "../media/Health.png",
+        altText: "Health App Image",
       },
       width: 1000,
       height: 800,
